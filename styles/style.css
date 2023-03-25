@@ -1,0 +1,878 @@
+/** RESET PROPERTIES **/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*BACKGROUNDS*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/meatImage.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#theRestaurant {
+    background-image: url(../img/chefs.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bookings{
+    background-image: url(../img/knifeandfork.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#perfectRoast{
+    background-image: url(../img/cow.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#haveDrink {
+    background-image: url(../img/cocktel.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#reciveMail{
+    background-image: url(../img/meetCocking3.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/****** LAYOT ******/
+/*** DISPLAY/POSITION/FLOAT ***/
+
+/*** NAV ***/
+nav {
+    position: fixed;
+    z-index: 100;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navegator li {
+    display: inline-block;
+}
+
+.navegator li a {
+    display: block;
+}
+
+/*** HEADER ***/
+.checkbtn {
+    float: right;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*** MAIN BODY ***/
+#paragraphs #box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bookings #box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*** GALERY ***/
+
+#galery{
+    display: flex;
+    flex-direction: column;
+}
+
+#galery #box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#galery #box-container .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#galery #box-container .box img {
+    position: relative;
+}
+
+/*** FOOTER ***/
+
+/*** HEIGHT/WIDTH/PADDING/BORDER/MARGIN ***/
+nav {
+    width: 100%;
+}
+
+.navegator li {
+    padding: 22px;
+}
+
+.navegator li a {
+    letter-spacing: 1.5px;
+}
+
+.checkbtn {
+    font-size: 43px;
+    float: right;
+    line-height: 105px;
+    margin-right: 40px;
+    display: none;
+}
+
+
+/*** HEADER ***/
+#direcctionAndTelf{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+#principalName {
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 380px;
+}
+
+#principalName #title{
+    font-size: 190px;
+}
+
+#principalName #subtitle {
+    margin-top: -50px;
+    font-size: 50px;
+    letter-spacing: 4.5px;
+}
+
+
+/*** MAIN BODY ***/
+#theRestaurant  {
+    padding-bottom: 100px;
+}
+
+#theRestaurant #title{
+    letter-spacing: 6px;    
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    transition: 0.5s;
+}
+
+#paragraphs{
+    text-align: center;
+    margin: 50px 0;
+    transition: 0.5s;
+}
+
+#paragraphs #box-container{
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#paragraphs #box-container .box{
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#paragraphs #box-container .box .number {
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    padding-bottom: 12px;
+    width: 20%;
+    margin-left: 40%;
+}
+
+#paragraphs #box-container .box h4 {
+    letter-spacing: 2.5px;
+    font-size: 35px;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+
+#paragraphs #box-container .box p {
+    margin-top: 76px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+#paragraphs #box-container .box #first {
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+/**BOOKINGS**/
+
+#bookings{
+    padding-bottom: 200px;
+}
+
+#bookings #title{
+    text-align: center;
+}
+
+#bookings #title h3{
+    letter-spacing: 6px;    
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+#bookings #title p {
+    margin-top: 30px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+
+#bookings #box-container{
+    margin-top: 130px;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#bookings #box-container .box {
+    height: 4rem;
+    width: 15rem;
+    text-align: center;
+    transition: 0.5s;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+#bookings #box-container .box p{
+    padding: 12px;
+    text-align: left;
+    padding-left: 6%;
+}
+
+#bookings #box-container .box #bookingNow {
+    text-align: center;
+}
+
+
+/*** PERFECT ROAST ***/
+#perfectRoast{
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#perfectRoast #title{
+    letter-spacing: 6px;
+    font-size: 50px;
+    padding-top: 200px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+#perfectRoast #text{
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 60px;
+}
+
+
+/*** HAVE A DRINK ***/
+#haveDrink {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#haveDrink #title {
+    letter-spacing: 6px;
+    font-size: 50px;
+    padding-top: 200px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+#haveDrink #text {
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 60px;
+}
+
+
+/*** GALERY ***/
+#galery {
+    text-align: center;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#galery #title{
+    letter-spacing: 6px;
+    font-size: 50px;
+    padding-bottom: 75px;
+}
+
+#galery #box-container {
+    text-align: center;
+    transition: 0.5s;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+#galery #box-container .box {
+    height: 15rem;
+    width: 22rem;
+    transition: 0.5s;
+    flex-grow: 0.3;
+    align-items: center;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+#galery #box-container .box img{
+    width: 110%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+/** RECIVE OR EMAILS ***/
+#reciveMail {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#reciveMail #title{
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 18px;
+    padding-bottom: 20px;
+ }
+
+#reciveMail form {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#reciveMail form #field {
+    width: 100%;
+    margin-bottom: 7px;
+    padding-left: 3%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;   
+}
+
+
+#reciveMail form #btn-send {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/***CONTACT ME***/
+#contactUbi {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contactUbi #title {
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+#contactUbi #subtitle{
+    margin-bottom: 25px;
+    font-size: 19px;
+    letter-spacing: 3px;
+}
+
+#form {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    
+}
+
+#form__container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form__input {
+    font-size: 1rem;
+    padding: .8em 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+}
+
+.form__input--message {
+    resize: none;
+    padding: 1.5em 1em;
+    margin-bottom: .5em;
+}
+
+#form__cta {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+#contactUbi #streat{
+    margin-top: 60px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+#contactUbi i img{
+    padding-top: 40px;
+}
+
+#contactUbi #backToTop{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+/*** FOOTER ***/
+footer{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer small{
+    padding-bottom: 5px;
+}
+
+/*----------------------------------------------*/
+/**** STYLE / COLORS / BACKGROUNDS / ... ****/
+/***NAV***/
+nav {
+    background: #ae9b65;
+    text-align: center;
+}
+
+
+.navegator li a {
+    transition: 0.5s;
+    color: #323333;
+    text-decoration: none;
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+.navegator li a:hover {
+    transition: 0.5s;
+    color: #fff;
+}
+
+.checkbtn {
+    color: #fff;
+    cursor: pointer;
+}
+
+/*** HEADER ***/
+#direcctionAndTelf {
+    background-color: #323333;
+    color: #ae9b65;
+    font-style: italic;
+}
+
+#principalName {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    background-color: rgba(39, 37, 33, 0.55);
+}
+
+#principalName #subtitle {
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+/*** MAIN BODY ***/
+#theRestaurant #title {
+    font-family: 'SlateW01-Bold', sans-serif;
+    color: #ae9b65;
+}
+
+#paragraphs #box-container .box .number {
+    color: #fff;
+    font-family: 'SlateW01-Bold', sans-serif;
+    border-bottom: 1px solid #ae9b65;
+}
+
+#paragraphs #box-container .box h4 {
+    color: #ae9b65;
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+#paragraphs #box-container .box p {
+    color: #ae9b65;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/***** BOOKINGS ****/
+
+#bookings #title h3 {
+    font-family: 'SlateW01-Bold', sans-serif;
+    color: #fff;
+}
+
+#bookings #title p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+#bookings #box-container .box p{
+    background-color: #fff;
+}
+
+#bookings #box-container .box p:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+#bookings #box-container #bookingNow {
+    color: #fff;
+    background-color: rgb(0, 0,0 , 0.3);
+}
+
+#bookings #box-container #bookingNow:hover {
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.45);
+}
+
+/*** PERFECT ROAST ***/
+#perfectRoast #title {
+    color: #ae9b65;
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+#perfectRoast #text {
+    color: #fff;
+}
+
+/*** HAVE DRINK ***/
+
+#haveDrink #title {
+    color: #fff;
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+#haveDrink #text {
+    color: #fff;
+}
+
+/*** GALERY ***/
+#galery {
+    background-color: #323333;
+}
+
+#galery #title{
+    color: #ae9b65;
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+/***RECIVE OR EMAILS ***/
+#reciveMail #title{
+    color: #ae9b65;
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+#reciveMail form #field {
+    border: 2.5px solid black;
+    outline: none;
+}
+
+
+#reciveMail form #btn-send {
+    background-color: #ae9b65;
+    font-family: 'SlateW01-Bold', sans-serif;
+    border: 0px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#reciveMail form #btn-send:hover {
+    background-color: #323333;
+    color: #ae9b65;
+    transition: 0.5s;
+}
+
+/***CONTACT ME ***/
+#contactUbi {
+    background-color: #323333;
+}
+#contactUbi #title{
+    font-family: 'SlateW01-Bold', sans-serif;
+    color: #fff;
+}
+
+#contactUbi #subtitle {
+    font-family: 'SlateW01-Bold', sans-serif;
+    color: #ae9b65;
+}
+
+
+#contactUbi .form__input {
+    border: 3px solid #ae9b65;
+    background-color: #323333;
+    color: #fff;
+}
+
+#contactUbi #form__cta {
+    color: #fff;
+    background-color: #ae9b65;
+    font-family: 'SlateW01-Bold', sans-serif;
+    transition : 0.5s;
+    outline: none;
+        border: none;
+}
+
+#contactUbi #form__cta:hover {
+    color: #ae9b65;
+    background-color: #323333;
+    transition: 0.5s;
+}
+
+#contactUbi #streat {
+    color: #ae9b65;
+    font-family: 'SlateW01-Bold', sans-serif;
+}
+
+#contactUbi #backToTop {
+    font-family: 'SlateW01-Bold', sans-serif;
+    color: #ae9b65;
+}
+/*** FOOTER ***/
+footer{
+    background-color: #323333;
+}
+
+footer small{
+    color: #fff;
+}
+
+
+@media (max-width: 1272px) {
+
+    .navegator {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        height: 680px;
+        background: #ae9b65;
+        top: 105px;
+        text-align: center;
+        transition: all .5s;
+        left: -100%;
+        width: 100%
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 45px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 24px;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        font-weight: bold;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .navegator>li {
+        display: block;
+    }
+
+    .navegator li a {
+        display: inline-block;
+    }
+
+    #direcctionAndTelf{
+        padding-top: 130px;
+    }
+
+
+
+    #theRestaurant{
+        background: none;
+        background-color: #323333;
+    }
+
+    #paragraphs #box-container .box p {
+        font-size: 18px;
+    }
+
+
+
+
+    
+    #bookings{
+        background: none;
+        background-color: #ae9b65;
+    }
+
+    #bookings #title p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #bookings #box-container .box {
+        height: 5rem;
+        width: 25rem;
+    }
+
+    #bookings #box-container .box p {
+        padding: 18px;
+        text-align: left;
+        padding-left: 6%;
+        font-size: 18px;
+    }
+
+
+
+
+    #perfectRoast{
+        background: none;
+        background-color: #323333;
+    }
+
+    #perfectRoast #title{
+        margin-left: 20%;
+        margin-right: 20%;
+    }   
+
+    #perfectRoast #text {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 18px;
+    }
+
+
+
+
+
+    #haveDrink{
+        background: none;
+        background-color: #ae9b65;
+    }
+
+    #haveDrink #title {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #haveDrink #text {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 18px;
+    }
+
+
+#reciveMail #title {
+    font-size: 26px;
+}
+
+#reciveMail form {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#reciveMail form #field {
+padding: 25px;
+    font-size: 18px;
+}
+
+#reciveMail form #btn-send {
+padding: 18px;
+    font-size: 18px;
+}
+
+#form__container {
+    width: 190%;
+    margin-left: -45%;
+}
+
+.form__input {
+    padding: 18px;
+    font-size: 18px;
+}
+
+#form__cta {
+padding: 25px;        
+font-size: 18px;
+}
+
+#subtitle{
+    margin-top: 55px;
+    padding-bottom: 55px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    #streat{
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 20px;
+    }
+
+
+}
